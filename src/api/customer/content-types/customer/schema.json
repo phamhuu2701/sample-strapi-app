@@ -1,0 +1,82 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customers",
+  "info": {
+    "singularName": "customer",
+    "pluralName": "customers",
+    "displayName": "Customer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true,
+      "unique": true
+    },
+    "first_name": {
+      "type": "string",
+      "required": true
+    },
+    "last_name": {
+      "type": "string",
+      "required": true
+    },
+    "email_verified": {
+      "type": "boolean",
+      "default": false
+    },
+    "currency": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "phone_verified": {
+      "type": "boolean",
+      "default": false
+    },
+    "password": {
+      "type": "password",
+      "required": true
+    },
+    "membership": {
+      "type": "enumeration",
+      "enum": [
+        "GUEST",
+        "VIP"
+      ],
+      "default": "GUEST"
+    },
+    "birthday": {
+      "type": "date"
+    },
+    "gender": {
+      "type": "boolean",
+      "default": false
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "cover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
