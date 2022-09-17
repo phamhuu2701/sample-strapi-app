@@ -47,7 +47,8 @@
     },
     "password": {
       "type": "password",
-      "required": true
+      "required": true,
+      "private": true
     },
     "membership": {
       "type": "enumeration",
@@ -65,18 +66,24 @@
       "default": false
     },
     "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "username": {
+      "type": "uid",
+      "required": true
     }
   }
 }
