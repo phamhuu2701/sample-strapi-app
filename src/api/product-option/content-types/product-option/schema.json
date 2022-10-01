@@ -23,9 +23,8 @@
     },
     "product": {
       "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::product.product",
-      "inversedBy": "options"
+      "relation": "oneToOne",
+      "target": "api::product.product"
     }
   }
 }

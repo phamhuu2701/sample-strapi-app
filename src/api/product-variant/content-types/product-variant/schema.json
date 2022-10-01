@@ -29,11 +29,20 @@
     },
     "product": {
       "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::product.product",
-      "inversedBy": "variants"
+      "relation": "oneToOne",
+      "target": "api::product.product"
     },
-    "option": {
+    "option1": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product-option-value.product-option-value"
+    },
+    "option2": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product-option-value.product-option-value"
+    },
+    "option3": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::product-option-value.product-option-value"

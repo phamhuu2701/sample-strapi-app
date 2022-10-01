@@ -60,18 +60,6 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::product-vendor.product-vendor"
-    },
-    "options": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::product-option.product-option",
-      "mappedBy": "product"
-    },
-    "variants": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::product-variant.product-variant",
-      "mappedBy": "product"
     }
   }
 }
