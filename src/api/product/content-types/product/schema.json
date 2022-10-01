@@ -20,7 +20,7 @@
       "type": "richtext",
       "required": true
     },
-    "product_type": {
+    "type": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::product-type.product-type"
@@ -56,16 +56,22 @@
     "tags": {
       "type": "string"
     },
-    "product_vendor": {
+    "vendor": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::product-vendor.product-vendor"
     },
-    "product_option": {
+    "options": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::product-option.product-option",
-      "inversedBy": "product"
+      "mappedBy": "product"
+    },
+    "variants": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product-variant.product-variant",
+      "mappedBy": "product"
     }
   }
 }
