@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "vendors",
+  "collectionName": "product_vendors",
   "info": {
-    "singularName": "vendor",
-    "pluralName": "vendors",
-    "displayName": "Vendor"
+    "singularName": "product-vendor",
+    "pluralName": "product-vendors",
+    "displayName": "Product Vendor"
   },
   "options": {
     "draftAndPublish": false

@@ -1,5 +1,5 @@
 {
-  "/vendors": {
+  "/product-vendors": {
     "get": {
       "responses": {
         "200": {
@@ -7,7 +7,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/VendorListResponse"
+                "$ref": "#/components/schemas/ProductVendorListResponse"
               }
             }
           }
@@ -64,7 +64,7 @@
         }
       },
       "tags": [
-        "Vendor"
+        "Product-vendor"
       ],
       "parameters": [
         {
@@ -159,7 +159,7 @@
           "style": "deepObject"
         }
       ],
-      "operationId": "get/vendors"
+      "operationId": "get/product-vendors"
     },
     "post": {
       "responses": {
@@ -168,7 +168,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/VendorResponse"
+                "$ref": "#/components/schemas/ProductVendorResponse"
               }
             }
           }
@@ -225,23 +225,23 @@
         }
       },
       "tags": [
-        "Vendor"
+        "Product-vendor"
       ],
       "parameters": [],
-      "operationId": "post/vendors",
+      "operationId": "post/product-vendors",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/VendorRequest"
+              "$ref": "#/components/schemas/ProductVendorRequest"
             }
           }
         }
       }
     }
   },
-  "/vendors/{id}": {
+  "/product-vendors/{id}": {
     "get": {
       "responses": {
         "200": {
@@ -249,7 +249,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/VendorResponse"
+                "$ref": "#/components/schemas/ProductVendorResponse"
               }
             }
           }
@@ -306,7 +306,7 @@
         }
       },
       "tags": [
-        "Vendor"
+        "Product-vendor"
       ],
       "parameters": [
         {
@@ -320,7 +320,7 @@
           }
         }
       ],
-      "operationId": "get/vendors/{id}"
+      "operationId": "get/product-vendors/{id}"
     },
     "put": {
       "responses": {
@@ -329,7 +329,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/VendorResponse"
+                "$ref": "#/components/schemas/ProductVendorResponse"
               }
             }
           }
@@ -386,7 +386,7 @@
         }
       },
       "tags": [
-        "Vendor"
+        "Product-vendor"
       ],
       "parameters": [
         {
@@ -400,13 +400,13 @@
           }
         }
       ],
-      "operationId": "put/vendors/{id}",
+      "operationId": "put/product-vendors/{id}",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/VendorRequest"
+              "$ref": "#/components/schemas/ProductVendorRequest"
             }
           }
         }
@@ -477,7 +477,7 @@
         }
       },
       "tags": [
-        "Vendor"
+        "Product-vendor"
       ],
       "parameters": [
         {
@@ -491,7 +491,7 @@
           }
         }
       ],
-      "operationId": "delete/vendors/{id}"
+      "operationId": "delete/product-vendors/{id}"
     }
   }
 }
