@@ -60,6 +60,21 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::product-vendor.product-vendor"
+    },
+    "Option1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "option.option"
+    },
+    "Option2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "option.option"
+    },
+    "Option3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "option.option"
     }
   }
 }

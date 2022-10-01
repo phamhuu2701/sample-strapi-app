@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_option_values",
+  "info": {
+    "displayName": "Value",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  }
+}

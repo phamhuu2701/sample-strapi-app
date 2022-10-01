@@ -23,6 +23,8 @@
     "dotenv": "^16.0.2",
     "lodash": "^4.17.21",
     "pg": "8.6.0",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.0.2",
     "strapi-middleware-cache": "^2.1.8",
     "strapi-plugin-generate-data": "^1.0.16",
     "strapi-plugin-local-image-sharp": "^1.2.0",

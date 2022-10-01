@@ -18,9 +18,6 @@
     "descriptionHtml": {
       "type": "richtext"
     },
-    "handle": {
-      "type": "string"
-    },
     "price": {
       "type": "decimal"
     },
@@ -33,19 +30,13 @@
       "target": "api::product.product"
     },
     "option1": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::product-option-value.product-option-value"
+      "type": "string"
     },
     "option2": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::product-option-value.product-option-value"
+      "type": "string"
     },
     "option3": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::product-option-value.product-option-value"
+      "type": "string"
     }
   }
 }

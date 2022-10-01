@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_option_options",
+  "info": {
+    "displayName": "Option",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "integer",
+      "default": 0
+    },
+    "Values": {
+      "displayName": "Value",
+      "type": "component",
+      "repeatable": true,
+      "component": "option.value"
+    }
+  }
+}

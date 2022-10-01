@@ -1,0 +1,57 @@
+.table-block {
+  overflow-x: auto;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    td,
+    th {
+      border: 1px solid #dcdcdc;
+      padding: 1em;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f1f1f1;
+    }
+
+    tr:hover {
+      background-color: #fafafa;
+    }
+
+    thead {
+      background-color: #f1f1f1;
+
+      th {
+        vertical-align: top;
+      }
+    }
+
+    .center-align {
+      text-align: center;
+    }
+
+    .right-align {
+      text-align: right;
+    }
+
+    .inline-text {
+      white-space: nowrap;
+    }
+
+    .action-items {
+      button {
+        white-space: nowrap;
+      }
+    }
+
+    .timestamp {
+      font-size: 0.9em;
+    }
+
+    .Polaris-Badge {
+      white-space: nowrap;
+    }
+  }
+}
