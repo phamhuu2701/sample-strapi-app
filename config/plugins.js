@@ -4,5 +4,9 @@ module.exports = () => {
     'generate-data': {
       enabled: true,
     },
+    'product-variants-builder': {
+      enabled: true,
+      resolve: './src/plugins/product-variants-builder',
+    },
   }
 }
